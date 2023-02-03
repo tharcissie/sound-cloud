@@ -1,5 +1,5 @@
 .body {
-    width: calc(100% - 11rem);
+    width: calc(100% - 5rem);
     min-height: 100%;
     margin-left: 5rem;
     z-index: 0;
@@ -7,16 +7,17 @@
     top: 0;
     transition: all 0.5s ease;
     background: #1F1F1F;
-    color: #e64141;
+    color: #d8d6d6;
     padding: 3rem;
+    padding-bottom: 10%;
 }
 
 .body-trimmed {
-    width: calc(100% - 22.6rem);
+    width: calc(100% - 16.5625rem);
     margin-left: 16.5625rem;
 }
 
 .body-md-screen {
-    width: calc(100% - 12rem);
+    width: calc(100% - 5rem);
     margin-left: 5rem;
 }

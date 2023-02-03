@@ -1,12 +1,12 @@
 export const navbarData = [
     {
         routeLink: 'home',
-        icon: 'view_module',
+        icon: 'fa fa-th-large fa-1x mx-3',
         label: 'Your Library'
     },
     {
         routeLink: 'playlist',
-        icon: 'playlist_play',
+        icon: 'fa fa-list fa-1x mx-3',
         label: 'Playlist'
     },
 ];

@@ -41,27 +41,38 @@
 }
 
 .sidenav .logo-container .btn-close {
-    margin-left: auto;
+    margin-left: 20px;
     cursor: pointer;
     width: 2rem;
     height: 2rem;
-    border-radius: 50%;
-    background-color: #39393B;
-    border: none;
     color: #FF7B5F;
 }
 
-.searchform {
-    margin-left: 1.1rem;
-    margin-right: 1.1rem;
-    margin-top: 12px;
-    color: aliceblue;
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
 }
 
-mat-form-field {
-    width: 100% !important;
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: none;
+    background-color: #252526;
+    color: beige;
 }
 
+.search input:focus {
+    box-shadow: none;
+    background-color: #252526;
+    color: beige;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    color: beige;
+}
 
 .sidenav .logo-container .btn-close .fa-times {
     color: #FF7B5F;
@@ -99,10 +110,10 @@ mat-form-field {
 }
 
 .sidenav-nav .sidenav-nav-item .sidenav-nav-link .sidenav-link-icon {
-    font-size: 22px;
+    font-size: 40px;
     width: 2rem;
     min-width: 2rem;
-    margin: 0 0.5rem;
+    margin: 0 0.5rem 0 0.5rem;
     text-align: center;
 }
 
@@ -116,11 +127,6 @@ mat-form-field {
 
 .active {
     background-color: #39393B;
-}
-
-.sidenav .divider {
-    background-color: rgb(88, 87, 87);
-    margin: 0 10% 0 10%;
 }
 
 .footer {
@@ -140,4 +146,9 @@ mat-form-field {
 .footer .icon {
     padding-top: 2px;
     line-height: 30px;
+}
+
+.line {
+    color: aliceblue;
+    margin: 0 20px 0 20px;
 }
